@@ -12,7 +12,7 @@ import (
 
 // diskUsageCmd represents the diskUsage command
 var diskUsageCmd = &cobra.Command{
-	Use:   "diskUsage",
+	Use:   "disk-usage",
 	Short: "Prints disk usage of the current directory",
 	Long: ``,
 	Run: func(cmd *cobra.Command, args []string) {
